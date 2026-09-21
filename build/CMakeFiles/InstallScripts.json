@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/OSM_LVGL_App/build/cmake_install.cmake",
+		"C:/OSM_LVGL_App/build/lvgl_build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
