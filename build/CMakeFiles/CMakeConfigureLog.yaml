@@ -3027,3 +3027,1031 @@ events:
       Running the CXX compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.47.20260726
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      cc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      cc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      cc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      cc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Windows\\System32\\bin"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WireGuard\\"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\abhis\\Git\\cmd"
+        - "C:\\Users\\abhis\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Windows\\System32"
+        - "D:\\Downloads\\flutter_windows_3.10.6-stable\\flutter\\bin"
+        - "C:\\Users\\abhis\\Git\\git-cmd.ex"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\abhis\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\abhis\\AppData\\Roaming\\npm"
+        - "C:\\Users\\abhis\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "c:\\Users\\abhis\\.vscode\\extensions\\vscjava.vscode-java-debug-0.59.0\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSM_LVGL_App"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      cc.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      cc.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/OSM_LVGL_App/build/CMakeFiles/CMakeScratch/TryCompile-hwiakw"
+      binary: "C:/OSM_LVGL_App/build/CMakeFiles/CMakeScratch/TryCompile-hwiakw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/OSM_LVGL_App/build/CMakeFiles/CMakeScratch/TryCompile-hwiakw'
+        
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_74745
+        [1/2] C:\\msys64\\ucrt64\\bin\\cc.exe    -o CMakeFiles\\cmTC_74745.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c
+        FAILED: [code=1] CMakeFiles/cmTC_74745.dir/CMakeCCompilerABI.c.obj 
+        C:\\msys64\\ucrt64\\bin\\cc.exe    -o CMakeFiles\\cmTC_74745.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/msys64/ucrt64/bin/cc.exe"
+    directories:
+      source: "C:/OSM_LVGL_App/build/CMakeFiles/CMakeScratch/TryCompile-ijrkmp"
+      binary: "C:/OSM_LVGL_App/build/CMakeFiles/CMakeScratch/TryCompile-ijrkmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/OSM_LVGL_App/build/CMakeFiles/CMakeScratch/TryCompile-ijrkmp'
+        
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_9bdbd
+        [1/2] C:\\msys64\\ucrt64\\bin\\cc.exe    -o CMakeFiles\\cmTC_9bdbd.dir\\testCCompiler.c.obj -c C:\\OSM_LVGL_App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ijrkmp\\testCCompiler.c
+        FAILED: [code=1] CMakeFiles/cmTC_9bdbd.dir/testCCompiler.c.obj 
+        C:\\msys64\\ucrt64\\bin\\cc.exe    -o CMakeFiles\\cmTC_9bdbd.dir\\testCCompiler.c.obj -c C:\\OSM_LVGL_App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ijrkmp\\testCCompiler.c
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

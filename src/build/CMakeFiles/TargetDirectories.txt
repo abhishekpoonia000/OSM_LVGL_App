@@ -1,0 +1,17 @@
+C:/OSM_LVGL_App/src/build/CMakeFiles/OSM_LVGL_App.dir
+C:/OSM_LVGL_App/src/build/CMakeFiles/edit_cache.dir
+C:/OSM_LVGL_App/src/build/CMakeFiles/rebuild_cache.dir
+C:/OSM_LVGL_App/src/build/CMakeFiles/list_install_components.dir
+C:/OSM_LVGL_App/src/build/CMakeFiles/install.dir
+C:/OSM_LVGL_App/src/build/CMakeFiles/install/local.dir
+C:/OSM_LVGL_App/src/build/CMakeFiles/install/strip.dir
+C:/OSM_LVGL_App/src/build/lvgl_build/CMakeFiles/lvgl.dir
+C:/OSM_LVGL_App/src/build/lvgl_build/CMakeFiles/lvgl_thorvg.dir
+C:/OSM_LVGL_App/src/build/lvgl_build/CMakeFiles/lvgl_examples.dir
+C:/OSM_LVGL_App/src/build/lvgl_build/CMakeFiles/lvgl_demos.dir
+C:/OSM_LVGL_App/src/build/lvgl_build/CMakeFiles/edit_cache.dir
+C:/OSM_LVGL_App/src/build/lvgl_build/CMakeFiles/rebuild_cache.dir
+C:/OSM_LVGL_App/src/build/lvgl_build/CMakeFiles/list_install_components.dir
+C:/OSM_LVGL_App/src/build/lvgl_build/CMakeFiles/install.dir
+C:/OSM_LVGL_App/src/build/lvgl_build/CMakeFiles/install/local.dir
+C:/OSM_LVGL_App/src/build/lvgl_build/CMakeFiles/install/strip.dir

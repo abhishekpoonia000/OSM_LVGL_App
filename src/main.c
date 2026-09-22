@@ -252,6 +252,7 @@ static void navigation_stop_cb(lv_event_t *e);
 static void map_navigation_button_cb(lv_event_t *e);
 static void perform_search(const char *query);
 
+static void attach_keyboard_to_textarea(lv_obj_t *textarea);
 static void search_button_event_cb(lv_event_t *e);
  static void destination_button_cb(lv_event_t *e);
 static void result_button_cb(lv_event_t *e);
